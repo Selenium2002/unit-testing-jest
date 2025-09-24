@@ -12,3 +12,8 @@ test("return the addition of all numbers", () => {
     expect(theSumOfNums(40, 50, 10, 100, 5, 10, 30, 80)).toBe(325);
 });
 
+
+test("return the addition of all numbers", () => {
+    expect(theSumOfNums()).toBe(0);
+});
+
