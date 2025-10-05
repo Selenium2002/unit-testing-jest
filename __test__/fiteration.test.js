@@ -17,5 +17,4 @@ describe("Validate The Input Field", () => {
         expect(nameFilter("_Ismail")).toBe("Ismail")
     })
 
-
 })
